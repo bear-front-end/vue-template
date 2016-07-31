@@ -23,10 +23,14 @@ src/ 下的文件以及 `index.hmtl` 都进行了一定的删减，更加轻便�
 ## 使用方法
 
     # install vue-template
-    npm install vue-template
+    npm install vue-template or bower install vue-template(and copy files from node_modules or bower_components to your project)
+
+    or
+
+    git clone https://github.com/bear-front-end/vue-template.git(this repository)
 
     # install dependencies
-    cd vue-template && npm install
+    npm install
 
     # serve with hot reload at localhost:8080
     npm run dev
