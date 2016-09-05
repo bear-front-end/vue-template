@@ -10,10 +10,6 @@
 
 <hr/>
 
-build/webpack.prod.conf.js 下的 `extract` 属性都改为 `false`
-
-<hr/>
-
 config/index.js 下的 `build` 的属性 `assetsPublicPath` 改为 `'./'` ，执行 `npm run build` 以后 `html` 文件引用的 `css`和`js` 文件是相对路径，可以在 `file://` 下运行
 
 <hr/>
